@@ -24,7 +24,7 @@ impl Chapter {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
-    let num_threads: usize = args().nth(2).unwrap_or("4".to_string()).parse()?;
+    let num_threads: usize = args().nth(2).unwrap_or("16".to_string()).parse()?;
     let link = args().nth(1).expect("No link provided");
     println!("Creating an ebook for: {}", &link);
     
