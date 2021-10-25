@@ -6,9 +6,6 @@ Scrapes wordpress sites and generates epubs for author J.C. "Wildbow" McCrae's w
 </small>
 
 <br/>
-
-<big>**[Download](https://github.com/scraeling/wildbow_epub_gen/releases)**</big>
-
 -----------------------
 <br/>
 
